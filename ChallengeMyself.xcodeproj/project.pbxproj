@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138B0821151D53B3009D148C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B0820151D53B3009D148C /* UIKit.framework */; };
+		138B0823151D53B3009D148C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B0822151D53B3009D148C /* Foundation.framework */; };
+		138B0825151D53B3009D148C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B0824151D53B3009D148C /* CoreGraphics.framework */; };
+		138B082B151D53B3009D148C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 138B0829151D53B3009D148C /* InfoPlist.strings */; };
+		138B082D151D53B3009D148C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 138B082C151D53B3009D148C /* main.m */; };
+		138B0831151D53B3009D148C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 138B0830151D53B3009D148C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		138B081C151D53B3009D148C /* ChallengeMyself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeMyself.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138B0820151D53B3009D148C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		138B0822151D53B3009D148C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		138B0824151D53B3009D148C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		138B0828151D53B3009D148C /* ChallengeMyself-Info.plist */ = {isa = PBXFileReference; path = "ChallengeMyself-Info.plist"; sourceTree = "<group>"; };
+		138B082A151D53B3009D148C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		138B082C151D53B3009D148C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		138B082E151D53B3009D148C /* ChallengeMyself-Prefix.pch */ = {isa = PBXFileReference; path = "ChallengeMyself-Prefix.pch"; sourceTree = "<group>"; };
+		138B082F151D53B3009D148C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		138B0830151D53B3009D148C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		138B0819151D53B3009D148C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B0821151D53B3009D148C /* UIKit.framework in Frameworks */,
+				138B0823151D53B3009D148C /* Foundation.framework in Frameworks */,
+				138B0825151D53B3009D148C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138B0811151D53B3009D148C = {
+			isa = PBXGroup;
+			children = (
+				138B0826151D53B3009D148C /* ChallengeMyself */,
+				138B081F151D53B3009D148C /* Frameworks */,
+				138B081D151D53B3009D148C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		138B081D151D53B3009D148C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				138B081C151D53B3009D148C /* ChallengeMyself.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		138B081F151D53B3009D148C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				138B0820151D53B3009D148C /* UIKit.framework */,
+				138B0822151D53B3009D148C /* Foundation.framework */,
+				138B0824151D53B3009D148C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		138B0826151D53B3009D148C /* ChallengeMyself */ = {
+			isa = PBXGroup;
+			children = (
+				138B082F151D53B3009D148C /* AppDelegate.h */,
+				138B0830151D53B3009D148C /* AppDelegate.m */,
+				138B0827151D53B3009D148C /* Supporting Files */,
+			);
+			path = ChallengeMyself;
+			sourceTree = "<group>";
+		};
+		138B0827151D53B3009D148C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				138B0828151D53B3009D148C /* ChallengeMyself-Info.plist */,
+				138B0829151D53B3009D148C /* InfoPlist.strings */,
+				138B082C151D53B3009D148C /* main.m */,
+				138B082E151D53B3009D148C /* ChallengeMyself-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		138B081B151D53B3009D148C /* ChallengeMyself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 138B0834151D53B3009D148C /* Build configuration list for PBXNativeTarget "ChallengeMyself" */;
+			buildPhases = (
+				138B0818151D53B3009D148C /* Sources */,
+				138B0819151D53B3009D148C /* Frameworks */,
+				138B081A151D53B3009D148C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeMyself;
+			productName = ChallengeMyself;
+			productReference = 138B081C151D53B3009D148C /* ChallengeMyself.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		138B0813151D53B3009D148C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 138B0816151D53B3009D148C /* Build configuration list for PBXProject "ChallengeMyself" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 138B0811151D53B3009D148C;
+			productRefGroup = 138B081D151D53B3009D148C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				138B081B151D53B3009D148C /* ChallengeMyself */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		138B081A151D53B3009D148C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B082B151D53B3009D148C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		138B0818151D53B3009D148C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138B082D151D53B3009D148C /* main.m in Sources */,
+				138B0831151D53B3009D148C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		138B0829151D53B3009D148C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				138B082A151D53B3009D148C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		138B0832151D53B3009D148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		138B0833151D53B3009D148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		138B0835151D53B3009D148C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChallengeMyself/ChallengeMyself-Prefix.pch";
+				INFOPLIST_FILE = "ChallengeMyself/ChallengeMyself-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		138B0836151D53B3009D148C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChallengeMyself/ChallengeMyself-Prefix.pch";
+				INFOPLIST_FILE = "ChallengeMyself/ChallengeMyself-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		138B0816151D53B3009D148C /* Build configuration list for PBXProject "ChallengeMyself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B0832151D53B3009D148C /* Debug */,
+				138B0833151D53B3009D148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		138B0834151D53B3009D148C /* Build configuration list for PBXNativeTarget "ChallengeMyself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				138B0835151D53B3009D148C /* Debug */,
+				138B0836151D53B3009D148C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 138B0813151D53B3009D148C /* Project object */;
+}
