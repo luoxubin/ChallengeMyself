@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  ChallengeMyself
+
+  Created by luoxubin on 3/24/12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+
+/*------------- TabbarString (AppDelegate.m)-------------------------------*/
+"kTabbarSpeed" = "Speed";
+"kTabbarMemory" = "Memory";
+"kTabbarHabit" = "Habit";
+"kTabbarMore" = "More";
+
+/*------------- -----------------------------------------------------------*/
